@@ -1,0 +1,7 @@
+{
+  "name": "jetWorkApp",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
