@@ -1,3 +1,12 @@
 page-feed {
+    background-color: blue;
+    
+    button, .button-inner { 
+        background-color:grey !important; 
+    }
 
+    .titulo{
+        font-size: 20px;
+        padding-left: 12px;
+    }
 }

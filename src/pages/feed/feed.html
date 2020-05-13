@@ -6,30 +6,32 @@
 -->
 <ion-header>
   <ion-navbar>
-    <ion-title>feed</ion-title>
+    <ion-title >Jet Work</ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  <h6>Publicações</h6>
-  <button (click)="post()">Publicar</button>
-  <ion-card>
-    <img src=""/>
+ <h2 class="titulo">Feed de Publicações</h2>
+  <ion-card [ngStyle]="{'background-color':'orange'}">
+    <img src="" />
     <ion-card-content>
       <ion-card-title>
-        Luana Luz 
+        <h1>Luana Luz </h1>
         <br>
-        <strong>Preciso de moto boy Urgente!</strong> 
-        </ion-card-title>
-      <p>
-        
+        <h2>Preciso de moto boy Urgente!</h2>
+      </ion-card-title>
+      <h5>
         Para fazer entrega de food/Delivery.
         Horario flexivel, exigência: Sexo Masculino. (Sem Experiencia)
-      </p>
-      <strong>30,00(dia)</strong> 
+      </h5>
+      <br>
+      <strong>30,00(dia)</strong>
       <strong>40028922</strong>
       <strong>Itajai/SC</strong>
-    
+
     </ion-card-content>
   </ion-card>
+  <ion-fab right bottom>
+    <button ion-fab color="light" (click)="post()"><ion-icon name="add"></ion-icon></button>
+  </ion-fab>
 </ion-content>
